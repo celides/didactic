@@ -1,27 +1,59 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*vista Movil*/
+#container {
+  display: flex;
+  flex-direction: column;
+}
+/*estilos para con tenedor de arriba a la izquierda movil*/
+#currentWheather {
+  background-color: rgb(30, 33, 58);
+  height: 100vh;
+  width: 100%;
+}
+/*barra de navecion lateral*/
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+#navBar {
+  height: 100%;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+/*estilos para el contenedor a la derecha escritorio*/
+#forecast {
+  background-color: rgb(16, 14, 29);
+  min-height: 100vh;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+/*vista de de escritorio */
+@media screen and (min-width: 1200px){
+  #container {
+  flex-direction: row;
+
 }
+
+/*@media screen and (min-width: 1200px){
+  #currentWeather {
+  width: 40%;
+}
+*/
+
+#currentWheather {
+  width: 30%;
+}
+
+#forecast {
+  width: 70%;
+}
+}
+
+
+
+
+
+
+
+
+
+
