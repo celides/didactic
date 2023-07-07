@@ -1,0 +1,28 @@
+/*barra de navecion lateral*/
+
+#navBar {
+    height: 100%;
+    background-color: rgb(30, 33, 58);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #btnSearch {
+    background: #6E707A;
+    box-shadow: 0PX 4PX 4PX 0PX;
+  }
+  
+  #btnClose{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    min-height: 0;
+  }
+  

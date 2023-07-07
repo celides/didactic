@@ -1,3 +1,4 @@
+/*formateo de pana*/   
 *{
   margin: 0;
   padding: 0;
@@ -14,16 +15,11 @@
   height: 100vh;
   width: 100%;
 }
-/*barra de navecion lateral*/
-
-#navBar {
-  height: 100%;
-}
 
 /*estilos para el contenedor a la derecha escritorio*/
 #forecast {
   background-color: rgb(16, 14, 29);
-  min-height: 100vh;
+  min-height: 0vh;
 }
 
 /*vista de de escritorio */
