@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2? family= Raleway:wght@100;200;300;400;500;600;700;900 & display=swap');
 /*formateo de pana*/   
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
 }
 /*vista Movil*/
 #container {
@@ -15,6 +17,95 @@
   height: 100vh;
   width: 100%;
 }
+
+/* Caja con el icono y el posicionamiento del lugar  */
+
+#btnLocation {
+  height: 40px;
+  background-color: transparent;
+  border: 0;
+}
+
+#btnLocation>svg {
+  height: 100px;
+  width: 100;
+  color: #ffffff;
+}
+
+
+
+
+#navBar-btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Caja con los datos del clima  */
+
+#navBar-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+/* Caja con los datos del clima  */
+
+
+#navBar-data {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+   
+}
+
+#navBar-data>p:first-child> {
+  font-size: 50px;
+  color: white;
+}
+
+#navBar-data>p:first-child>span {
+  font-size: 144px;
+  color: white;
+}
+
+#navBar-data>p:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  color: white;
+}
+
+#navBar-data>p:nth-child(3) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 25px;
+  color: white;
+}
+
+#navBar-data>p:nth-child(4) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 25px;
+  color: white;
+  gap: 1rem;
+}
+
+
+
+
+
+
+
 
 /*estilos para el contenedor a la derecha escritorio*/
 #forecast {
